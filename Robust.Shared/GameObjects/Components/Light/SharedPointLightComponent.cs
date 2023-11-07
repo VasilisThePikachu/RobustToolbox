@@ -67,6 +67,7 @@ namespace Robust.Shared.GameObjects
         /// <summary>
         /// How far the light projects.
         /// </summary>
+        [ViewVariables(VVAccess.ReadWrite)]
         [DataField("radius")]
         [Access(typeof(SharedPointLightSystem))]
         public float Radius = 5f;
